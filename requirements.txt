@@ -1,0 +1,8 @@
+torch
+opencv-python
+dronekit
+numpy
+pandas
+folium
+python-telegram-bot
+PyDrive
