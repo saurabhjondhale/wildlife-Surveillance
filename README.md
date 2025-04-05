@@ -61,6 +61,49 @@ To build an autonomous drone system using a Raspberry Pi, AI-based animal detect
    cd yolov5 && pip install -r requirements.txt
    pip install dronekit opencv-python
    ```
+3. COde**
+
+4. Flight Planning:
+
+Open QGroundControl on laptop
+
+Connect drone via telemetry or USB
+
+Add waypoints, set altitude and speed
+
+Upload mission to drone
+
+Switch mode to AUTO
+
+5.YOLO (optional)
+
+pip install labelImg
+labelImg  # Label your animal images
+
+python train.py \
+    --img 640 \
+    --batch 16 \
+    --epochs 50 \
+    --data data/animals.yaml \
+    --weights yolov5s.pt \
+    --cache
+
+6. Possible Extensions:
+
+Real-time alerts via Telegram or cloud
+
+Auto-upload logs and images to Firebase
+
+Add thermal camera module
+
+Night vision or infrared support
+
+Collision avoidance using ultrasonic sensors   
+
+
+7. End Goal:
+A low-cost, scalable AI drone solution to aid wildlife monitoring, prevent poaching, and support environmental research teams in remote or forest areas.
+
 
 
 
