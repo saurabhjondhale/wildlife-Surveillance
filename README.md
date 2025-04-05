@@ -1,4 +1,4 @@
-# wildlife-Surveillance
+# Wildlife-Surveillance
 AI Powered classification and detection drone
 
 **Project Title: AI-Powered Wildlife Surveillance Drone**
